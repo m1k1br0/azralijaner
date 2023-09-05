@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.page{
+    height: 65vh;
+    width: 100vw;
+    background: url(slike/animal-1236875_1920.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+.page2{
+    background: url(slike/panda-4421395_1920.jpg);
+    height: 65vh;
+    width: 100vw;
+    background-attachment: fixed;
+    color: white;
+}
+
+.page3{
+    background: url(slike/red-panda-1852830_1920.jpg);
+    height: 65vh;
+    width: 100vw;
+    background-attachment: fixed;
+    color: white;
+}
+
+.page4{
+    background: url(slike/panda-7854772_1920.jpg);
+    height: 65vh;
+    width: 100vw;
+    background-attachment: fixed;
+    color: white;
+}
+
+.naslovp1{
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+}
+
+.textp1{
+    background-color: rgba(0, 0, 0, 0.46);
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+}
+
+.mudjica{
+    margin-top: 10px;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mudjica2{
+    margin-top: 10px;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.mudjica img{
+    height: 250px;
+    width: 250px;
+}
+
+.mudjica2 img{
+    width: 250px;
+}
+
+#dugme{
+    padding-top: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+@media (max-width:822px){
+    .mudjica2{
+    flex-direction: column;
+    }
+    .mudjica{
+    flex-direction: column;
+
+    }
+
+    .mudjica img{
+        margin-top: 10px;
+        height: 150px;
+        width: 150px;
+    }
+
+
+    .mudjica2 img{
+        margin-top: 10px;
+        width: 150px;
+    }
+
+    .mudjica video{
+        margin-top: 10px;
+
+        width: 150px;
+    }
+    .page{
+        height: 150vh;
+    }
+
+    .page2{
+        height: 240vh;
+        
+    }
+
+    .page3{
+        height: 230vh;
+
+    }
+
+    .page4{
+        height: 230vh;
+
+    }
+
+}
+
+@media (max-height:703px){
+    .page{
+        height: 160vh;
+    }
+
+    .page2{
+        height: 260vh;
+        
+    }
+
+    .page3{
+        height: 250vh;
+
+    }
+
+    .page4{
+        height: 250vh;
+
+    }
+}
+
+@media (max-height:609px){
+    .page{
+        height: 190vh;
+    }
+
+    .page2{
+        height: 290vh;
+        
+    }
+
+    .page3{
+        height: 280vh;
+
+    }
+
+    .page4{
+        height: 280vh;
+
+    }
+}
